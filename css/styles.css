@@ -1,0 +1,43 @@
+/* CSS FILE */
+
+body {
+	/* background-color: cyan; */
+	background-image: url(../images/sky.jpg);
+	text-align: center;
+	font-family: 'Erica One', cursive;
+	color: wheat;
+
+
+
+}
+
+body:after{
+    position:fixed; 
+    content:""; 
+    top:0;
+    left:0;
+    right:0;
+    bottom:0; 
+    background:rgba(0,0,255,0.5);
+    z-index:-1;
+}
+
+
+h1 {
+	font-size: 45pt;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	 -webkit-text-stroke: 1px black;
+}
+
+h2 {
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 20pt;
+}
+
+
+img{
+	/* width: 750px; */
+	width: 50%;
+}
